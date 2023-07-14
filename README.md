@@ -1,4 +1,4 @@
 # Erica Inamura Portfolio
 
-Portfolio about me.
-Thanks for reading.
+This is my portfolio.
+Thanks for reading!
