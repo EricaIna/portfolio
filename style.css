@@ -255,6 +255,7 @@ header {
   justify-content: center;
   height: 100px;
   width: 500px;
+  margin-bottom: 50px;
 }
 .skills-icon p {
   line-height: 1.6rem;
