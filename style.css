@@ -59,7 +59,7 @@ body {
   width: 100%;
   height: 100%;
   border: 2px solid #fdefde;
-  animation: animate 5s linear infinite;
+  animation: animate 3s linear infinite;
 }
 
 .loader-contents span:nth-child(1) {
@@ -243,18 +243,22 @@ header {
   background-color: #eee8de;
   width: 100%;
   height: 100%;
-}
-.skills-contents h2 {
-  padding-top: 50px;
-}
-.skills-icon {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-icon {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   height: 100px;
+  width: 500px;
 }
 .skills-icon p {
   line-height: 1.6rem;
+  padding: 10px;
 }
 
 .about-contents {
@@ -448,5 +452,12 @@ header {
     width: 100%;
     text-align: center;
     margin-top: 20px;
+  }
+  .about-images img:nth-child(3) {
+    width: 300px;
+    height: 300px;
+  }
+  .skills-icon {
+    width: 100%;
   }
 }
