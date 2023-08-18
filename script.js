@@ -41,6 +41,21 @@ nav.addEventListener("click", function () {
   document.querySelector(".hamburger").classList.remove("active");
 });
 
+const header = document.querySelector(".header-contents");
+let prevScrollPos = window.pageYOffset;
+
+window.addEventListener("scroll", () => {
+  const currentScrollPos = window.pageYOffset;
+
+  if (prevScrollPos > currentScrollPos) {
+    header.style.top = "0";
+  } else {
+    header.style.top = "-100px"; //hide nav outside
+  }
+
+  prevScrollPos = currentScrollPos;
+});
+
 //go to top button
 const button = document.getElementById("topButton");
 button.addEventListener("click", scrollTop);
