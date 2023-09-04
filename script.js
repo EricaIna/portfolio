@@ -17,7 +17,7 @@ window.onload = function () {
       },
       { once: true }
     );
-  }, 3000);
+  }, 2500);
 };
 
 // loader title animation

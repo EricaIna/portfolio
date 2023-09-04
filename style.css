@@ -263,6 +263,14 @@ header {
   border-radius: 20px;
   margin: 0 5px;
 }
+.project-link-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: end;
+  padding-right: 50px;
+  width: 100%;
+}
 
 /* Skills */
 .skills-contents {
